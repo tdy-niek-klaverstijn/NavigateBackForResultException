@@ -9,16 +9,4 @@ public sealed partial class TestModal : ContentDialog
     {
         this.InitializeComponent();
     }
-
-    private async void OnGotFocus(object sender, RoutedEventArgs e)
-    {
-        //if (
-        //    sender is Control control
-        //    && Enum.TryParse(control.Name, out FocusedSettingsElement focusedElement)
-        //    && ((SettingsViewModel)DataContext).Model is SettingsModel viewModel
-        //)
-        //{
-        //    await viewModel.FocusedElement.Update(current => focusedElement, default);
-        //}
-    }
 }
